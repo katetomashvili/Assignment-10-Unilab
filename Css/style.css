@@ -1,3 +1,6 @@
+.form-boxes{
+    display: flex;
+}
 .form-wrapper{
     margin: 0 auto;
     margin-top: 88px;
@@ -17,7 +20,8 @@
     height: 115px;
 }
 textarea{
-    margin-top: 25px;
+    background: #F8F8F8;
+    margin-top: 15px;
     padding: 20px;
     border: 2px solid #E8E8E8;
     width: 720px;
@@ -28,4 +32,43 @@ textarea::placeholder{
     font-family: 'Poppins', sans-serif;
     color: #CECECE;
     font-size: 13px;
+}
+input{
+    background: #F8F8F8;
+    width: 352px;
+    height: 30px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    border: 2px solid #E8E8E8;
+    padding: 20px;
+}
+input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    color: #CECECE;
+    font-size: 13px;
+}
+input:focus{
+    border: none;
+}
+.info-box{
+    margin-top: 15px;
+}
+.send-button{
+    font-family: 'Poppins', sans-serif;
+    background: #5863F8;
+    margin-left: 16px;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: none;
+    width: 395px;
+    height: 60px;
+    cursor: pointer;
+}
+.fa-paper-plane{
+    margin-left: 8px;
+}
+input:focus,
+textarea:focus,
+.send-button:focus {
+	outline: none;
 }
